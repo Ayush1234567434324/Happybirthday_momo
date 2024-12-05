@@ -20,11 +20,9 @@ const Portfolio = () => {
   };
 
   // Directly assign local PDF file paths to responseData
-
-
-  const responseData = Array.from({ length: 56 }, (_, index) => {
-    return `http://localhost:3000/flipbukchinki/IMG_20230923_144938-pages-${index + 1}.pdf`;
-  });
+  const responseData = [
+   'https://cses.fi/book/book.pdf'
+  ];
 
   const getValueBasedOnWidth = (width) => {
     if (width > 1000) {

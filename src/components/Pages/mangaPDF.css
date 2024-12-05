@@ -1,0 +1,49 @@
+.hoverable {
+    opacity: 1; /* Set initial opacity to 1 (fully visible) */
+    transition: opacity 0.3s ease; /* Smooth transition for the opacity property */
+  }
+  
+  .hoverable:hover {
+    opacity: 0.7; /* Reduce opacity on hover (adjust as needed) */
+  }
+  
+ 
+   .fullscreen
+   {
+    overflow: scroll !important;
+   }
+  
+   .page-cover
+   {
+    box-shadow: inset 0 0 30px 0 rgba(36,10,3,.5),-2px 0 5px 2px rgba(0,0,0,.4);
+    background-color: #393939;
+    height: 100%;
+   
+   }
+   .page-cover1
+   {
+    box-shadow: inset 0 0 30px 0 rgba(36,10,3,.5),-2px 0 5px 2px rgba(0,0,0,.4);
+    background-color: #000000;
+    height: 100%;
+   }
+   .page-con
+   {
+    box-shadow: inset 0 0 30px 0 rgba(255, 255, 255, 0.5),-2px 0 5px 2px rgba(0,0,0,.4);
+    background-color: white;
+   }
+
+   .react-pdf__Page__canvas
+   {
+    top:14px !important;
+    left: 7px !important;
+
+   }
+   .page-img
+   {
+    height: 100% !important;
+    width: 100% !important;
+   }
+  
+
+
+   

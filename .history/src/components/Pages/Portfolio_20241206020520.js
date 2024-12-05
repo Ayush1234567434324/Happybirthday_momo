@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import { useLocation } from 'react-router-dom';
 import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 import HTMLFlipBook from 'react-pageflip';
-import './mangaPDF.css'
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Portfolio = () => {
@@ -72,7 +72,7 @@ const Portfolio = () => {
     <div className="demoPage page-cover" key={0}>
       <div className="page page-cover">
         <div className="page-content" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
-          <img src='chinki5.jpg' height={700} width={400} />
+          <img src='' height={700} width={400} />
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@ const Portfolio = () => {
     <div className="demoPage page-cover1" key={1}>
       <div className="page" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
         <div className="page-content" style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
-          <img className="page-img" src="chinki7.jpg" height={460} width={400} />
+          <img className="page-img" src="https://i.imgur.com/QiZeZgc.jpg" height={460} width={400} />
         </div>
       </div>
     </div>

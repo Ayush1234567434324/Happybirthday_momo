@@ -16,20 +16,20 @@
    .page-cover
    {
     box-shadow: inset 0 0 30px 0 rgba(36,10,3,.5),-2px 0 5px 2px rgba(0,0,0,.4);
-    background-color: #ff7dda;
+    background-color: #393939;
     height: 100%;
    
    }
    .page-cover1
    {
     box-shadow: inset 0 0 30px 0 rgba(36,10,3,.5),-2px 0 5px 2px rgba(0,0,0,.4);
-    background-color: #f97f7f;
+    background-color: #0c0b0b;
     height: 100%;
    }
    .page-con
    {
     box-shadow: inset 0 0 30px 0 rgba(255, 255, 255, 0.5),-2px 0 5px 2px rgba(0,0,0,.4);
-    background-color: rgb(233, 233, 233);
+    background-color: white;
    }
 
    .react-pdf__Page__canvas

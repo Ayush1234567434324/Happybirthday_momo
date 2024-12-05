@@ -82,7 +82,7 @@ const Portfolio = () => {
     <div className="demoPage page-cover1" key={1}>
       <div className="page" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
         <div className="page-content" style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
-          <img className="page-img" src="chinki7.jpg" height={460} width={400} />
+          <img className="page-img" src="https://i.imgur.com/QiZeZgc.jpg" height={460} width={400} />
         </div>
       </div>
     </div>
